@@ -4,7 +4,7 @@ class DatabaseT
 {
     private $PDOLocal;
     private $user="root";
-    private $password="";
+    private $password="password";
     private $server="mysql:host=localhost; dbname=olerfumigaciones";
     
     function conectarDB()
